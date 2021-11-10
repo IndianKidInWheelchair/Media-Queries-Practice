@@ -5,3 +5,204 @@ Author: Your Name Here
 
 ----------------------------------------- */
 
+/* Box-sizing border-box */
+* { box-sizing:border-box; }
+
+[ class^="div"]{color: white;font-size: large;text-align: center;}
+
+
+/* colors for each box */
+.div1 {
+     background: brown;
+     width: 100%;
+    }
+.div2 { 
+    background: burlywood;
+    width: 33.33%;
+}
+.div3 { 
+    background: darkcyan;
+    width: 33.33%;
+}
+.div4 { 
+    background: darkgray;
+    width: 33.33%;
+}
+.div5 { 
+    background: darkorange;
+    width: 50%;
+}
+.div6 {
+    background: deepskyblue;
+    width: 50%;
+}
+.div7 {
+    background: gainsboro;
+    width: 25%;
+}
+.div8 {
+    background:hotpink;
+    width: 25%;
+}
+.div9{
+    background: purple;
+    width: 25%;
+}
+.div10{
+    background: lawngreen;
+    width: 25%;
+}
+
+/* Border for flex container */
+.flex-container {
+    border: 10px solid red;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    height: auto;
+    align-content: space-around;
+}
+
+
+/* When the browser is at least 600px and above */
+@media screen and (max-width: 480px) {
+    body {
+        background-color: brown;
+    }
+        .div1 {
+            background: brown;
+            width: 100%;
+        }
+       .div2 { 
+           background: burlywood;
+           width: 50%;
+       }
+       .div3 { 
+           background: cornsilk;
+           width: 50%;
+       }
+       .div4 { 
+           background: darkgray;
+           width: 50%;
+       }
+       .div5 { 
+           background: darkorange;
+           width: 50%;
+       }
+       .div6 {
+           background: deepskyblue;
+           width: 50%;
+       }
+       .div7 {
+           background: gainsboro;
+           width: 50%;
+       }
+       .div8 {
+           background:hotpink;
+           width: 33.33%;
+       }
+       .div9{
+           background: purple;
+           width: 33.33%;
+       }
+       .div10{
+           background: lawngreen;
+           width: 33.33%;   
+    }
+        
+}
+
+@media screen and (max-width: 1024px) {
+    body {
+        background-color: aqua;
+    }
+
+    .div1 {
+        background: brown;
+        width: 100%;
+    }
+   .div2 { 
+       background: burlywood;
+       width: 50%;
+   }
+   .div3 { 
+       background: cornsilk;
+       width: 50%;
+   }
+   .div4 { 
+       background: darkgray;
+       width: 50%;
+   }
+   .div5 { 
+       color: darkorange;
+       width: 50%;
+   }
+   .div6 {
+       background: deepskyblue;
+       width: 50%;
+   }
+   .div7 {
+       background: gainsboro;
+       width: 50%;
+   }
+   .div8 {
+       background:hotpink;
+       width: 33.33%;
+   }
+   .div9{
+       background: lavenderblush;
+       width: 33.33%;
+   }
+   .div10{
+       background: lawngreen;
+       width: 33.33%;   
+    }
+}
+
+    @media screen  and (max-width: 640px) {
+        body {
+            background-color: aqua;
+        }
+    
+        .div1 {
+            background: brown;
+            width: 100%;
+        }
+       .div2 { 
+           background: burlywood;
+           width: 50%;
+       }
+       .div3 { 
+           background: cornsilk;
+           width: 50%;
+       }
+       .div4 { 
+           background: darkgray;
+           width: 100%;
+       }
+       .div5 { 
+           color: darkorange;
+           width: 100%;
+       }
+       .div6 {
+           background: deepskyblue;
+           width: 100%;
+       }
+       .div7 {
+           background: gainsboro;
+           width: 100%;
+       }
+       .div8 {
+           background:hotpink;
+           width: 100%;
+       }
+       .div9{
+           background: purple;
+           width: 100%;
+       }
+       .div10{
+           background: lawngreen;
+           width: 100%;
+       }
+    }
